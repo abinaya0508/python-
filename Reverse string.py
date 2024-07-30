@@ -1,10 +1,5 @@
-def reverse_string():
-    string = "Python"
-    length = len(string)
-    reversed_string = ""
-    reverse= length - 1
-    while reverse >= 0:
-        reversed_string += string[reverse]
-        reverse -= 1
-    return reversed_string
-print(reverse_string()) 
+word=input("Enter the string:")
+reverse_str=" "
+for i in range(len(word)-1,-1,-1):
+    reverse_str+=word[i]
+print(reverse_str)    
