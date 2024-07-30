@@ -1,5 +1,6 @@
-i=2
-while(i<100):
+Num=int(input("Enter the value:"))
+i=0
+while(i<=Num):
     print(i)
     i+=2
     
